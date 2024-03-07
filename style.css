@@ -14,12 +14,35 @@ body{
 }
 .animbutton{
     position: relative;
-    padding: 10px 12px;
-    background-color: violet;
+    padding: 10px 25px;
+    background-color: rgb(0, 0, 0);
     border-radius: 25px;
     color: aliceblue;
     border: none;
     font size: 30px;
     cursor: pointer;
 
+}
+.animbutton:active{
+    transform: scale(0.96);
+
+}
+.animbutton::before, .animbutton::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 150%;
+    border: 2px solid red;
+    background-repeat: no-repeat;
+}
+.animbutton::before{
+    top: -70%;
+    background-image: radial-gradient(circle, purple 20%, transparent 20%);
+    background-size: 10% 10%;
+}
+
+.animbutton::after{
+    bottom: -70%;
 }
