@@ -1,0 +1,2 @@
+This is a Simple Js animation I made for a website: You can use it in your own projects hence i'm uploading the code to github,
+    Inspired by Coding labs project : https://www.youtube.com/watch?v=F7iFnhSZe7o
