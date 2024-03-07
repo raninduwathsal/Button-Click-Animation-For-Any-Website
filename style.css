@@ -34,9 +34,10 @@ body{
     transform: translateX(-50%);
     height: 100%;
     width: 150%;
+    z-index: -1;
     background-repeat: no-repeat;
 }
-.animbutton::before{
+.animbutton.animate::before{
     top: -70%;
     background-image: radial-gradient(circle, yellow 20%, transparent 20%),
     radial-gradient(circle, transparent 20%, yellow 20%, transparent 30%),
@@ -66,7 +67,7 @@ body{
       background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
     }
   }
-.animbutton::after{
+.animbutton.animate::after{
     bottom: -70%;
     background-image: radial-gradient(circle, yellow 20%, transparent 20%),
       radial-gradient(circle, yellow 20%, transparent 20%),
