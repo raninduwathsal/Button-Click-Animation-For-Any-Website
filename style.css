@@ -34,7 +34,6 @@ body{
     transform: translateX(-50%);
     height: 100%;
     width: 150%;
-    border: 2px solid red;
     background-repeat: no-repeat;
 }
 .animbutton::before{
